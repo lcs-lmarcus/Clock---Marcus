@@ -22,13 +22,14 @@ struct WorldClockView: View {
                         
                     }
                     ToolbarItem(placement: .primaryAction) {
-                    
-                    Button {
-                    } label:{
-                        Image(systemName:"plus")
+                        
+                        Button {
+                            
+                        } label:{
+                            Image(systemName:"plus")
+                        }
                     }
                 }
-            }
         }
     }
 }
